@@ -11,7 +11,6 @@ body {
 main {
   border: 1px solid #333;
   color: #333;
-  padding: 2rem;
   width: 600px;
   margin: auto;
 }
@@ -22,4 +21,17 @@ main h1 {
 }
 main p {
   line-height: 1.5rem;
+}
+
+.cabecera {
+  padding: 1rem 2rem;
+  color: #fff;
+  background-color: cornflowerblue;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.contenido {
+  padding: 2rem;
 }
